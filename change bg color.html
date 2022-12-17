@@ -1,0 +1,42 @@
+<html>
+    <body class="bg">
+       
+
+        <div class="navbar">
+<button class="button">Home</button>.......
+<a href="https://myaccount.google.com/?utm_source=sign_in_no_continue&pli=1"><button class="button">Sign in</button></a>.......
+<a href="https://github.com/jasmehsidhu2111"><button class="button">About</button></a>.......
+<button class="button">contact us</button>.......
+<div align="center"><h1> change the background</h1>
+<input type="text" id="kk"><button id="kkk">change</button></div>
+<p align="center">
+    This website changes its background colour on your demand,<br>
+Developed by Jasmeh singh.for more projects you can visit on my<br>
+Github page by clicking on about button in navbar
+</p>
+
+        
+    
+        <style>
+            p{
+                margin-top: 80px;
+            }
+            input{font-size: 20px;}
+            .all{margin-top: 20px;}
+            #j{font-size: 20px;}
+            button{font-size: 20px;}
+            .button{border-width: 0px;background-color: grey;font-size:20px;margin-top: 10px;}
+            .navbar{background: black;}
+            .button:hover{background-color:dimgrey;}
+            div{height: 50px;}
+        </style>
+        <script>
+     kkk.addEventListener('click',function(){
+         var x=document.getElementById("kk").value;
+         var bg=document.getElementsByClassName("bg")
+         return bg[0].style.background=x;
+     })
+     
+        </script>
+    </body>
+</html>
